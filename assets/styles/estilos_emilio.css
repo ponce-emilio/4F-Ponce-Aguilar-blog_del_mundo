@@ -33,3 +33,26 @@ nav>ul>li>a {text-decoration: none}
 #footer_blog {
     margin: 2rem;}
 /*fin footer del blog*/
+/*Empieza grid*/
+section {
+    display: grid;
+    /*Se crearón 12 columnas*/
+    grid-template-columns: repeat(12, 1fr);
+    /*Dejamos que acupen el alto que necesitan*/
+    grid-auto-rows: auto;
+    /*Añadimos un espacio entre el grid de 3rem*/
+    gap: 3rem;}
+/*Termina grid*/
+
+header {
+    grid-column: span 12;
+    grid-row: auto:}
+main {
+    grid-column: span 8;
+    grid-row: auto:}
+aside {
+    grid-column: span 4;
+    grid-row: auto:}
+footer {
+    grid-column: span 12;
+    grid-row: auto:}
