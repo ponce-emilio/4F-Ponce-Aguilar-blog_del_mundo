@@ -46,13 +46,13 @@ section {
 
 header {
     grid-column: span 12;
-    grid-row: auto:}
+    grid-row: auto;}
 main {
     grid-column: span 8;
-    grid-row: auto:}
+    grid-row: auto;}
 aside {
     grid-column: span 4;
-    grid-row: auto:}
+    grid-row: auto;}
 footer {
     grid-column: span 12;
-    grid-row: auto:}
+    grid-row: auto;}
