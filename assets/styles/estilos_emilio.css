@@ -17,7 +17,7 @@
     color: yellow;}
 
 nav>ul>li {list-style: none;}
-nav>ul>li>a {text-decoration: none}
+nav>ul>li>a {text-decoration: none; color: #fff;}
 /*termina barras de navegación*/
 /*ilustración*/
 .ilustracion {
@@ -31,7 +31,12 @@ nav>ul>li>a {text-decoration: none}
 /*fin ilustración*/
 /*footer del blog*/
 #footer_blog {
-    margin: 2rem;}
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 0 4rem 0;
+    font-size: 1.3rem;}
 /*fin footer del blog*/
 /*Empieza grid*/
 section {
@@ -56,3 +61,42 @@ aside {
 footer {
     grid-column: span 12;
     grid-row: auto;}
+
+nav {font-size: 1.3rem;}
+
+nav>ul>li>a:hover {
+    text-decoration: underline; 
+    color: greenyellow;}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem;}
+
+article>header>hgroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+article>header>hgroup>h2 {
+    display: flex;
+    align-items: center;}
+
+article>header>hgroup>h2>img {padding-right: 1rem;}
+
+#footer_blog div:nth-child(2) {font-size: 0.9rem;}
+
+aside>h2 {
+    align-items: center;
+    font-size: 1.3rem;}
+
+aside>div:nth-of-type(even) {background-color: rgb(44, 43, 43);}
+
+aside>div>img {
+    background-color: lightblue;
+    padding: 0.5rem;
+    border-radius: 50%;}
+
+aside>div>span {}
