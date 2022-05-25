@@ -79,8 +79,7 @@ nav {
     font-size: 1.3rem;
     position: fixed;
     width: 100%;
-    background-color: black;
-}
+    background-color: black;}
 
 nav>ul>li>a:hover {
     text-decoration: underline; 
@@ -156,3 +155,8 @@ aside>div {
 
 @media (min-width: 1024.1px)and(max-width: 1324.1px){
     aside>div {flex-direction: column;}}
+
+#titulo_del_blog{
+    text-align: center; 
+    font-size: clamp(2rem,calc(1vh+2rem),7rem); 
+    margin-top: calc(16vh)}
